@@ -15,26 +15,30 @@
     
 
 }
-#nav{
+.wrapper{
     float:left;
-    background-color: rgb(35, 41, 41);
-    height:200px;
+    height:1000px;
     width: 120px;
-    padding:10px;
     color:white;
     text-align:center;
     
 
 }
+#nav{
+    background-color: rgb(35, 41, 41);
+    padding:10px;
+
+    height:300px;
+}
 #unav{
     background-color: pink;
-    float:bottom;
+    height:680px;
 
 
 }
 
 #main{
-    width: 660px;
+    width: 680px;
     float: left;
     background-color: white;
     color:black;
