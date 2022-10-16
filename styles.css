@@ -31,7 +31,7 @@
     height:300px;
 }
 #unav{
-    background-color: pink;
+    background-color: rgb(35, 41, 41);
     height:680px;
 
 
@@ -43,6 +43,7 @@
     background-color: white;
     color:black;
     padding:20px;
+    height:960px;
 }
 #r_aside{
     width:160px;
@@ -76,6 +77,7 @@ a:hover{
 input{
     width:130px;
     padding:10px;
+    font-family:cursive;
 }
 .loginButton {
 	box-shadow:inset 0px 0px 15px 3px #23395e;
@@ -107,7 +109,15 @@ form{
     gap:3px;
     align-items:center;
 }
-body{
+body,html{
     background-color: rgb(84, 52, 102);
-
+    margin:0px;
+}
+#ngolo{
+    width:100%;
+}
+.Essa{
+    text-align:center;
+    font-size:50px;
+    font-family:fantasy;
 }
