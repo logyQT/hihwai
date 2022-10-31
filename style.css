@@ -10,7 +10,7 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     width: 100%;
-    height: 120%;
+    height:120%;
 }
 #page {
     margin-left: auto;
@@ -19,9 +19,8 @@ body {
     margin-bottom: 0px;
     background-color: whitesmoke;
     width: 100%;
-    padding: 5%;
-    height: 120%;
-    padding: 0px;
+    padding:0px;
+    height:120%;
 }
 header {
     width: 100%;
@@ -35,10 +34,10 @@ header {
     font-style: italic;
 }
 nav {
+    height:100%;
     float: left;
     background-color: hsl(210, 50%, 30%);
     width: 15%;
-    height: 100%;
     padding-top: 1.5%;
     padding-bottom: 5%;
     padding-left: 1%;
@@ -47,14 +46,16 @@ nav {
     font-size: 25px;
     font-family: "Josefin Sans", sans-serif;
 }
+
 .article {
+    height:100%;
     animation:transition 3s;
     position: relative;
     float: left;
-    height: 100%;
     width: 85%;
     background-color: whitesmoke;
 }
+
 footer {
     clear: both;
     height: 5%;
@@ -132,29 +133,31 @@ nav a:hover {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     height:342px;
 }
-.articleBilans table{
+.articleTable{
+    width:600px;
     height:342px;
     margin-left:10px;
     float:left;
+    margin-bottom:30px;
 }
-.articleBilans thead th{
-    border: 1px solid #ddd;
-    padding: 5px;;
-}
-.articleBilans thead tr{
-    background-color:rgb(143, 54, 54);
-}
-.articleBilans tbody th{
+.articleTable thead th{
     border: 1px solid #ddd;
     padding: 5px;
 }
-.articleBilans tbody tr{
+.articleTable thead tr{
+    background-color:rgb(143, 54, 54);
+}
+.articleTable tbody th{
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+.articleTable tbody tr{
     background-color:rgb(196, 180, 180);
 }
-.articleBilans tbody tr:nth-child(even){
+.articleTable tbody tr:nth-child(even){
     background-color:gray;
 }
-.articleBilans tbody tr:hover{
+.articleTable tbody tr:hover{
     background-color:rgb(143, 54, 54);
 }
 .articleBilans video{
@@ -165,8 +168,12 @@ nav a:hover {
     float:left;
     border:black;
 }
-articleBilans video .controls {
-    width: 100%;
-    height: 8.0971659919028340080971659919028%; /* of figure's height */
-    position: relative;
-  }
+
+.articleBilans2{
+    clear:both;
+}
+
+.article form{
+    text-align:center;
+    margin-top:25%;
+}
